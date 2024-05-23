@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{19303B41-08FF-4FA8-B832-B159A34D1671}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0D84D9BE-A1C2-4617-B277-1B66B4BB7650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{FE910513-3339-4149-AA35-578EB3CE789A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketDomain", "MarketDomain\MarketDomain.csproj", "{F5CB92EB-6882-49D1-9C04-ED7B85B4939E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketApplication", "MarketApplication\MarketApplication.csproj", "{FC8FDE37-50DB-438E-83C3-AAC874FFF264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPostgreDb", "MarketPostgreDb\MarketPostgreDb.csproj", "{E771A9AC-B0AF-4F5F-AD1B-48A6145BC3EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketWebApi", "MarketWebApi\MarketWebApi.csproj", "{13DDA637-DBED-4E51-BD56-2D1809BE46C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5CB92EB-6882-49D1-9C04-ED7B85B4939E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CB92EB-6882-49D1-9C04-ED7B85B4939E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CB92EB-6882-49D1-9C04-ED7B85B4939E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CB92EB-6882-49D1-9C04-ED7B85B4939E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8FDE37-50DB-438E-83C3-AAC874FFF264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8FDE37-50DB-438E-83C3-AAC874FFF264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8FDE37-50DB-438E-83C3-AAC874FFF264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8FDE37-50DB-438E-83C3-AAC874FFF264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E771A9AC-B0AF-4F5F-AD1B-48A6145BC3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E771A9AC-B0AF-4F5F-AD1B-48A6145BC3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E771A9AC-B0AF-4F5F-AD1B-48A6145BC3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E771A9AC-B0AF-4F5F-AD1B-48A6145BC3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DDA637-DBED-4E51-BD56-2D1809BE46C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DDA637-DBED-4E51-BD56-2D1809BE46C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DDA637-DBED-4E51-BD56-2D1809BE46C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DDA637-DBED-4E51-BD56-2D1809BE46C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5CB92EB-6882-49D1-9C04-ED7B85B4939E} = {19303B41-08FF-4FA8-B832-B159A34D1671}
+		{FC8FDE37-50DB-438E-83C3-AAC874FFF264} = {19303B41-08FF-4FA8-B832-B159A34D1671}
+		{E771A9AC-B0AF-4F5F-AD1B-48A6145BC3EC} = {0D84D9BE-A1C2-4617-B277-1B66B4BB7650}
+		{13DDA637-DBED-4E51-BD56-2D1809BE46C2} = {FE910513-3339-4149-AA35-578EB3CE789A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {750C0F2C-670E-4B79-A35C-C94A58ACA3B5}
+	EndGlobalSection
+EndGlobal
